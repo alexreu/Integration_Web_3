@@ -1,0 +1,143 @@
+
+body{
+    margin: 0;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.container_medium{
+    width: 700px;
+    margin: 0 auto;
+} 
+.container_small{
+    width: 500px;
+    margin: 0 auto;
+}  
+
+/* debut header */
+header{
+    background: url(../img/home.jpg) no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+.overlay{
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1;
+ 
+}
+.brand{
+    font-size: 25px;
+    color: #fff;
+    padding-top: 0.5%;
+    position: absolute;
+}
+.brand p{
+    margin: 0 !important;
+}  
+.brand span{
+    color: #27B0DB
+} 
+.navbar{
+    position: relative;
+    background-color: transparent;
+    height: 50px;
+    z-index: 2;
+} 
+.navbar ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 0;
+    padding-top: 1%;
+}
+.nav-item a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px; 
+} 
+.nav-item{
+    padding-left: 6%;
+} 
+.header_article{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 90%;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+}
+.header_article h1{
+    color: #fff;
+    font-size: 25px
+} 
+.header_article p{
+    color: #fff;
+    font-size: 15px;
+    line-height: 40px;
+}
+.header_article button{
+    width: 25%;
+    padding: 10px 10px 10px 10px;
+    background-color: #424242;
+    border: 0;
+} 
+.header_article a{
+    color: #fff;
+    text-decoration: none; 
+} 
+/* fin header */
+
+/* debut service */
+#service{
+    background-color: #fff; 
+}
+.header_service{
+    text-align: center;
+    padding-top: 100px;
+} 
+.header_service h1{
+    color: #000;
+    font-size: 25px;  
+}
+.header_service p{
+    color: #ABABAB;
+    line-height: 30px;
+}
+.logo{
+    position: relative;
+    top: -25%;
+    left: 25%;
+    background-color: #fff;
+    color: #27B0DB;
+} 
+.article_service .row{
+    display: flex;
+    justify-content: center;
+}
+.article_content{
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    border: 2px solid #ABABAB;
+    margin-right: 10px;
+    padding: 20px 40px 20px 40px;
+}
+.article_content h2{
+    font-size: 17px;
+    color: #000; 
+} 
+.article_content p{
+    color: #ABABAB;
+    font-size: 13px;
+    line-height: 30px;
+} 
