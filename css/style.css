@@ -184,8 +184,10 @@ header{
     padding-bottom: 100px;
 }
 .article_service .row{
+    width: 95%;
+    margin: 0 auto;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     padding-bottom: 100px;
 }
 .article_content_service{
@@ -231,10 +233,11 @@ header{
 }
 #figure .row {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     height: 400px;
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
 }
 .article_content_figure {
     color: #fff;
@@ -289,14 +292,11 @@ header{
     cursor: pointer;
 }
 .portfolio_content .row {
+    width: 91%;
+    margin: 0 auto;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     padding-top: 50px;
-}
-.portfolio_content .row_2 {
-    display: flex;
-    justify-content: center;
-    padding-top: 20px;
 }
 .portfolio_content img {
     transition: 0.5s all;
@@ -386,7 +386,9 @@ header{
 }
 #pricing .row {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    width: 50%;
+    margin: 0 auto;
 }
 .article_pricing_content {
     margin-top: 20px;
@@ -445,9 +447,11 @@ header{
     height: 200px;
 }
 .logo_content .row {
+    margin: 0 auto;
+    width: 70%;
     height: 200px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 .logo_client{
@@ -478,8 +482,10 @@ header{
     color: #6B6A6F;
 }
 .news_content .row {
-    justify-content: center;
+    width: 55%;
+    justify-content: space-between;
     display: flex;
+    margin: 0 auto;
 }
 .article_news_content {
     background-color: #fff;
@@ -628,7 +634,7 @@ form button:hover {
 
 @media screen and (min-width: 500px) and (max-width: 600px){
     .container{
-        width: 50%;
+        width: 90%;
         margin: 0 auto;
     }
     .container_large {
@@ -666,7 +672,7 @@ form button:hover {
 
     /* debut figure */
     #figure, .overlay_figure, #figure .row{
-        height: 600px;
+        height: 100vh;
     }
     .article_content_figure{
         margin-right: 0;
@@ -700,13 +706,10 @@ form button:hover {
 
     /* debut logo */
     #logo {
-        height: 350px;
+        height: 100vh;
     }
     .logo_content .row {
-        height: 350px;
-    }
-    .logo_responsive{
-        margin-right: 5%;
+        height: 100vh;
     }
     /* fin logo */
 
